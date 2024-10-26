@@ -1,4 +1,4 @@
-let { banco, contas, ultimoID, depositos, saques, transferencias } = require('../bancodedados');
+let { contas, depositos, saques, transferencias } = require('../bancodedados');
 const { format } = require('date-fns');
 
 const depositar = (req, res) => {

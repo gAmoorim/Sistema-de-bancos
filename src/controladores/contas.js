@@ -1,5 +1,4 @@
 let { banco, contas, ultimoID, depositos, saques, transferencias } = require('../bancodedados');
-const { format } = require('date-fns');
 
 const listarContas = (req,res) => {
     const { senha_banco } = req.query;
